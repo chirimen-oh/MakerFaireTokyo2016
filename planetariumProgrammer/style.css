@@ -1,0 +1,122 @@
+.width50{
+  width: 50%;
+}
+.width100{
+  width: 100%;
+}
+.height40{
+  height: 40%;
+}
+.height50{
+  height: 50%;
+}
+.height60{
+  height: 60%;
+}
+.height100{
+  height: 100%;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.margin0{
+  margin:0px;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+  background: #FFFFFF;
+  margin: 0px;
+}
+#wrapper{
+  width:90%;
+  height:100%;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+
+.imagearea{
+  width: 100%;
+  height: 90%;
+  margin: 0px;
+  float: left;
+}
+
+#myimage{
+  width: 100%;
+  height: 70%;
+  margin: 0px;
+  float: left;
+  border: 1px solid;
+
+}
+.loadimage{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  float: left;
+  object-fit: cover;
+}
+#programmer{
+  width:100%;
+  height:90%;
+  background: #000000;
+  margin: 0px;
+  float: right;
+}
+
+#localimages{
+  width: 100%;
+  height: 30%;
+  margin: 0px;
+  float: left;
+}
+.localimage{
+  margin: 0px;
+  float: left;
+  object-fit: cover;
+}
+
+.buttommenu{
+  width:100%;
+  height:10%;
+  float: left;
+}
+.br{
+  clear: both;
+}
+.button{
+  height: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  font-size: 3vw;
+}
+
+
+#keyword{
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  border:0px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 1) inset;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FFFFFF));
+  font-size: 3vw;
+}
+
+
+
+
+#canvas{
+  width: 200px;
+  height: 200px;
+  float: left;
+  clear: both;
+  visibility: hidden;
+}

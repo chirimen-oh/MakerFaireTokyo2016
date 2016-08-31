@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script src="flickr.js" defer></script>
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="wrapperright" class="margin0 width50 height100 right">
+        <div class="buttommenu">
+          <button id="readbtn" class="button width50">カラー読込</button>
+          <button id="defaultbtn" class="button width50">RGB</button>
+        </div>
+        <div id="programmer"></div>
+        
+      </div>
+      <div id="wrapperleft" class="margin0 width50 height100 left">
+        <div class="buttommenu br">
+          <input id="keyword"　type="text"/>
+          <button id="searchbtn" class="button width50">検索</button>
+        </div>
+
+        <div class="imagearea">
+          <div id="myimage"></div>
+          <div id="localimages"></div>
+        </div>
+        
+      </div>
+      
+      <canvas id="canvas" ></canvas>
+    </div>
+  </body>
+
+</html>
